@@ -4,8 +4,10 @@
 {% endblock title %}
 
 {% block index_link %}
-  <a class="nav-link active" href="index.html">
-{% endblock rules_link %}
+  <a class="nav-link active" href="{% url 'blog:index' %}">
+    Лента записей
+  </a>
+{% endblock index_link %}
 
 {% block content %}
 	<h1>Лента записей</h1>                        

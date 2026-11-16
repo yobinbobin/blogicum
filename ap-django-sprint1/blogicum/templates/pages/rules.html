@@ -4,7 +4,9 @@
 {% endblock title %}
 
 {% block rules_link %}
-  <a class="nav-link active" href="rules.html">
+  <a class="nav-link active" href="{% url 'pages:rules' %}">
+    Наши правила
+  </a>
 {% endblock rules_link %}
 
 {% block content %}

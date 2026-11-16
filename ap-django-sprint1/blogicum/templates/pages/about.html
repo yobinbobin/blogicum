@@ -4,8 +4,10 @@
 {% endblock title %}
 
 {% block about_link %}
-  <a class="nav-link active" href="about.html">
-{% endblock rules_link %}
+  <a class="nav-link active" href="{% url 'pages:about' %}">
+    О проекте
+  </a>
+{% endblock about_link %}
 
 {% block content %}
   <h1>О проекте</h1>
